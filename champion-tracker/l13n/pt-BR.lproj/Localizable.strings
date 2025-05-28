@@ -1,0 +1,360 @@
+/* Shared module download status view - Play button */
+"DownloadView_Play" = "Play";
+
+/* Shared module downlaod status view - Dismiss button */
+"DownloadView_Dismiss" = "Dispensar";
+
+/* Local collection of modules tab title*/
+"TabBar_Local" = "Coleção";
+
+/* Playlist tab title */
+"TabBar_Playlist" = "Playlist";
+
+/* Search tab title */
+"TabBar_Search" = "Pesquisar";
+
+/* Radio tab title*/
+"TabBar_Radio" = "Rádio";
+
+/* About tab title */
+"TabBar_About" = "Sobre";
+
+/* Local Import messages */
+"Local_Import_One" = "1 module importado";
+
+"Local_Import_Multiple" = "%@ modules importados";
+
+"Local_Import_None" = "Nenhum module importado";
+
+"Local_Import_Already_In" = "%@ já está na base de dado";
+
+"Local_Import_Unknown" = "%@ desconhecido";
+
+"Local_Import_Imported" = "%@ importado";
+
+"Local_Import_Assign" = "Associar compositor";
+
+"Local_Import_Cancel" = "Cancelar importação";    
+
+"Local_Import_Composer" = "Nome do compositor";
+
+"Local_Database_Error_Title" = "Migração falhou";
+"Local_Database_Error_Text" = "Infelizmente, a migração do banco de dados falhou. Um novo banco de dados foi criado. \n\n4champ pode tentar adicionar os modules locais existentes de volta ao banco de dados. Quer tentar?";
+"Local_Database_Error_Try_Fix" = "Sim, por favor!";
+"Local_Database_Error_Nvm" = "Deixa pra lá";
+
+/* Local modules view: info note on local modules tab when no modules available */
+"ModulesView_NoModules" = "Nenhum module na coleção. Encontre músicas em Pesquisar ou experimente o Rádio.";
+
+"PlaylistView_NoModules" = "Nenhum module na playlist. Você pode adicionar modules a uma playlist com um toque longo em um module em qualquer visão.";
+
+/* Local modules view: Module size sort selector */
+"ModuleInfo_Size" = "Tamanho";
+
+/* Local modules view: Composer handle selector in list sort */
+"ModuleInfo_Handle" = "Compositor";
+
+"ModuleInfo_Type" = "Tipo";
+
+/* Local modules view: Search filter toggle button title */
+"ModulesView_Filter" = "Filtro";
+
+/* Search view: Module tab title */
+"G_Module" = "Module";
+
+/* Search view: Texts tab title */
+"G_Texts" = "Textos";
+
+"Connectivity_Err" = "Temos um problema ao conetar com amp.dascene.net. Você pode usar o app em modo offline e tocar músicas locais, mas as funcionalidades de pesquisa e rádio não vão funcionar. Verifique o feed do champion-tracker no Mastodon sobre possíveis atualizações de status.";
+
+"Social_Check" = "champion-tracker no Mastodon";
+
+/* Search view: Composer tab title */
+"SearchView_Composer" = "Compositor";
+
+/* Search view: Group tab title */
+"G_Group" = "Grupo";
+
+/* Search failed info label */
+"Error_SearchFailed" = "Falha na pesquisa. O servidor não respodeu ou você está sem conexão. Tente de novo depois.";
+
+/* Info level dialog title */
+"G_Note" = "Nota";
+
+/* OK button in dialog */
+"G_OK" = "OK";
+
+/* Cannot lock radio playlist title */
+"Error_CannotLockRadioPlaylist" = "Você não pode travar a playlist da rádio";
+
+/* Cannot lock default playlist title */
+"Error_CannotLockDefaultPlaylist" = "Você não pode travar a playlist default";
+
+/* Playlist title on playlists view. Shows playlist name + count of modules */
+"PlaylistView_PlaylistNameAndCount" = "Playlist: %1$@ (%2$ld)";
+
+/* Label shown on playlist view when no modules */
+"PlaylistView_PlaylistEmpty" = "A Playlist está vazia. Adicione algumas músicas da aba de Coleção ou da Pesquisa.";
+
+/* Radio status text
+ Shown on playlist page when radio is on */
+"G_RadioOn" = "Rádio ON";
+
+/* Playlist view: Default playlist button title */
+"PlaylistView_DefaultPlaylist" = "Playlist Default";
+
+/* Clear playlist dialog clear button */
+"G_Clear" = "Limpar";
+
+/* Clear playlist dialog title */
+"PlaylistView_ClearDialog_Title" = "Limpar playlist";
+
+/* Add module to playlist selector title*/
+"PlaylistSelector_Title" = "Adicionar module na playlist";
+
+/* Add module to playlist button*/
+"PlaylistSelector_Add" = "Adicionar";
+
+/* Module table: Error show if play attempted while playlist is locked
+ Playlist locked dialog message
+ playlist locked info message */
+"Error_CurrentPlaylistLocked" = "Playlist está travada.";
+
+/* Clear playlist dialog message */
+"PlaylistView_ClearDialog_Message" = "Você quer limpar a playlist?";
+
+/* No comment provided by engineer. */
+"G_Cancel" = "Cancelar";
+
+/* untitled playlist default title */
+"G_Untitled" = "Sem nome";
+
+/* About view: Buy full version button title */
+"AboutView_Buy" = "Compre a versão completa";
+
+"About_Licenses" = "Licenses";
+"About_Copyrights" = "Copyrights e permissões";
+
+"AboutView_Title" = "Sobre champion-tracker";
+
+/* About view: Full version price and description */
+"AboutView_FullVersionInfo" = "Apoie o desenvolvimento do champion-tracker (%@)";
+
+/* About view: Full version not purchased message */
+"AboutView_NotPurchased" = "Versão completa não comprada!";
+
+/* About view: Restore complete dialog title */
+"AboutView_RestoreComplete" = "Restauração completa";
+
+/* About view: Restore purchases button title */
+"AboutView_Restore" = "Restaurar compras";
+
+/* About view: Restore button title while restore in progress */
+"AboutView_Restoring" = "Restaurando...";
+
+/* About view: Purchase button title while purchase in progress */
+"AboutView_Purchasing" = "Comprando...";
+
+/* Local modules view: First use data collection consent dialog title */
+"AnalyticsDialog_Title" = "Coleta de Dados Analíticos";
+
+/* Local modules view: First use data collection consent dialog message */
+"AnalyticsDialog_Message" = "O champion-tracker usa o serviço do Google Analytics para coletar estatísticas de uso anônimas. Nenhum dado pessoal será armazenado. Você quer permitir a coleta de dados?";
+
+/* Local modules view: Data collection consent dialog no thanks button title */
+"AnalyticsDialog_NoThanks" = "Não, obrigado";
+
+/* Local modules view: Data collection consent more info button title */
+"AnalyticsDialog_MoreInfo" = "Mais informação";
+
+/* Lock-screen: playing mod by author title
+ Shared module download view: Module author and name */
+"LockScreen_Playing" = "%1$@ por %2$@";
+
+/* Lock-screen: radio playlist name */
+"LockScreen_Radio" = "Rádio champion-tracker";
+
+/* Share module default content modname, author */
+"Share_DefaultMessage" = "%1$@ por %2$@ #champion-tracker #NowPlaying #TocandoAgora";
+
+/* No comment provided by engineer. */
+"Share_AppMessage" = "champion-tracker App - música de Amiga no seu bolso";
+
+/* Radio view: Prefetch failed title */
+"Radio_FetchFailed" = "Falha ao buscar!";
+
+/* Radio view: Radio status disclaimer */
+"Radio_RadioIsOff" = "Rádio está OFF";
+
+/* Radio Status off
+ Radio status off
+ Radio view: Radio status off */
+"Radio_StatusOff" = "Rádio OFF";
+
+/* Radio status on
+ Radio view: Radio status on */
+"Radio_StatusOn" = "Rádio ON";
+
+/* Radio view: Next module label */
+"Radio_NextUp" = "Próxima:";
+
+"Radio_Previous" = "Anterior:";
+
+"Radio_NByN" = "%1$@ por %2$@";
+
+/* Radio view: Fetching status label */
+"Radio_Fetching" = "Buferizando...";
+
+/* Radio channel: All (whole AMP database) */
+"Radio_All" = "Tudo";
+
+/* Radio channel: New (Latest AMP additions) */
+"Radio_New" = "Novas no AMP";
+
+"Radio_New_Count" = "Novas (%@)";
+
+
+/* Radio channel: Local collection (offline play) */
+"Radio_Local" = "Coleção";
+
+/* Custom radio channel is started from search - preferably a abbreviated / shorter term needed here. */
+"Radio_Custom" = "Personalizado";
+
+/* Radio view: Label shown if local channel selected but no local modules in database */
+"Radio_NoLocalModules" = "Sem modules locais";
+
+"Radio_NoSelection" = "Configurar canal personalizado por meio da pesquisa";
+
+/* Radio view: annotation on modules that are in local collection*/
+"Radio_InLocalCollection" = "Na coleção local";
+
+"Radio_NotificationButton" = "Notificar quando novos mods forem adicionadas";
+
+"Radio_NotificationButton_Settings" = "Configurações de notificações";
+
+"Radio_Notification" = "%@ novos modules na Rádio champion-tracker";
+
+"Notifications_Title" = "Notificações";
+"Notifications_BackgroundFetchDisabled" = "champion-tracker precisa de permissão de busca em segundo plano para notificar sobre novos módulos. Você pode habilitar isso nas configurações do app";
+"Notifications_Disabled" = "Você registrou para notificações mas a notificações estão desabilitadas nas configurações do app";
+
+/* Module download: Unsupported format info label */
+"Search_UnsupportedFormat" = "Desculpe, formato não suportado";
+
+/* Module table: nondownloaded module title
+ Non-downloaded module overlay title */
+"Search_TapToLoad" = "Toque para baixar...";
+
+/* Downloading module info label
+ Downloading module status label */
+"Search_Downloading" = "Baixando...";
+
+/* Module table: pending download label title */
+"Search_DownloadPending" = "Download pendente...";
+
+/* Search did not find anything info label */
+"Search_NoResult" = "Sem resultados. Tente outra pesquisa";
+
+"Search_RadioMessage_Add" = "O canal '%1$@' foi iniciado com %2$d modulos";
+"Search_RadioMessage_Append" = "%2$d modulos adicionados ao canal '%1$@'";
+
+/* Playlist view: Local database cleanup dialog button for deleting modules */
+"Dialog_Delete" = "Apagar";
+
+"ModulesView_Delete" = "Apagar da coleção";
+"NP_AddToPlaylist" = "Adicionar na playlist...";
+"NP_Share" = "Compartilhar...";
+
+"PlaylistView_Remove" = "Remover da playlist";
+
+"SearchView_Remove" = "Apagar da coleção";
+
+/* module table: error shown if attempting to delete module that is on a locked playlist */
+"Error_PlaylistLocked" = "Module está numa playlist travada";
+
+/* Download failed for composer modules list info label */
+"Error_ModuleListFailed" = "Falha em buscar lista de modules. O servidor não está respondendo ou você pode estar sem conexão. Tente novamente mais tarde.";
+
+/* Module table: Error shown when data indicates restricted download */
+"Error_ComposerDisabled" = "O Compositor desabilitou o download desse module";
+
+/* Playlist view: Local database cleanup message */
+"Dialog_DeleteOrKeep" = "Você tem %lu modules em sua coleção que não foram favoritadas ou adicionadas numa playlist. Você quer manter ou apagar?";
+
+/* Keep module button title
+ Playlist view: Local database cleanup dialog button for keeping modules */
+"Dialog_Keep" = "Manter";
+
+/* Clean up playlist dialog title
+ Playlist view: Local database cleanup dialog title */
+"Dialog_Cleanup_Title" = "Limpeza automática";
+
+/* Clean up playlist dialog message */
+"Dialog_DeleteOrKeep_Single" = "Quando você remover esse module desta playlist, ele não estará mais em nenhuma playlists. Quer manter ou apagar?";
+
+/* Module table: Error shown if module cannot be downloaded */
+"Error_DownloadFailed" = "Falha em baixar. Por favor, tente de novo mais tarde.";
+
+"Error_DownloadFailed_2" = "Hmm... parece que esse module não pode ser baixado agora.";
+
+"Error_PlaybackFailed" = "Desculpe, não posso tocar esse arquivo.";
+
+/* Radio view: Title */
+"RadioView_Title" = "RÁDIO 4CHAMP ";
+
+/* Dialogs: Error title */
+"Dialog_Error" = "Erro";
+
+/* Info level message title */
+"Dialog_Info" = "Nota";
+
+/* Dialogs: Product information not found message */
+"Dialog_ProductInfoNotFound" = "Informação de produto não encontrada";
+
+/* Shared module download view / title when complete */
+"ShareDialog_DownloadComplete" = "Download completo";
+
+/* Module cell: Download failed transient title */
+"Search_DownloadFailed" = "Download falhou";
+
+/* Shared module download view: Download failed label */
+"ShareDialog_DownloadFailed" = "Download falhou";
+
+"AboutView_ThankYou" = "Obrigado por comprar a versão copleta";
+
+"AboutView_Share" = "Compartilhe o champion-tracker com seus amigos";
+
+"PlaylistView_Playlists" = "Playlists";
+
+"PlaylistView_PlaylistName" = "Nome da playlist";
+
+"AboutView_Info" = "champion-tracker - Música de Amiga em seu bolso. \n\n4champ conecta seu dispositivo ao site da Amiga Music Preservation (http://amp.dascene.net)e permite que você pesquise compositores, grupos e modules no banco de dados da AMP. \n\n champion-tracker usa LibOpenMPT, UADE e HivelyTracker para reprodução.\n\n champion-tracker para dispositivos iOS \n© Aleksi Sitomaniemi";
+
+"AboutView_Legal" = "champion-tracker usa o banco de dados de preservação de músicas do Amiga com permissão concedida pelos proprietários do serviço.\n\nOs direitos autorais das músicas pertencem aos compositores. Se você acha que a disponibilidade de um determinado arquivo de música neste aplicativo viola os direitos de terceiros, contacte a equipe da AMP através de amp.dascene.net para uma retirada rápida de tal arquivo de música.";
+
+"AboutView_Local" = "Os modules que você baixou estão listados na aba Coleção. Toque em um módulo para começar a reproduzi-lo. Um toque longo abrirá o seletor de playlist para adicionar um mod a uma playlist. \n\nDeslize para a esquerda/direita na parte superior de um module para excluí-lo. \n\nVocê pode classificar a lista de modules locais por tipo de módulo, compositor, título, tamanho ou status de favorito. Use o botão de filtro na página de Modules Locais para encontrar rapidamente o módulo que você está procurando.";
+
+"AboutView_Search" = "Use a pesquisa para encontrar modules para tocar. Você pode pesquisar por compositor, grupo ou nome de module, ou pesquisar nos textos contidos nos modules. Se a pesquisa de grupo encontrar apenas um grupo, todos os compositores associados a esse grupo serão listados. Se vários grupos forem encontrados, os grupos correspondentes serão listados e a seleção de um deles listará os compositores. \n\nToque em um module para baixar e tocar. \n\nSe você quiser manter o module na coleção local, toque no ícone salvar próximo ao nome do module ou defina o module como favorito tocando no ícone de estrela. O cabeçalho dos resultados da pesquisa possui um botão para baixar todos os resultados de uma só vez. Isso também adicionará os modules à coleção local. Você também pode iniciar um canal de rádio personalizado a partir de qualquer resultado de pesquisa com módulos para ouvi-los sem adicioná-los à coleção.";
+
+"AboutView_Playlists" = "A visualização da Playlist mostra a fila de reprodução atual. Ao visualizar modules em qualquer aba, um toque longo abre o seletor de playlist onde você pode adicionar o module a qualquer playlist.\n\nNa visualização da playlist você pode controlar a reprodução e criar/selecionar/limpar playlists. Você também pode selecionar o modo de reprodução (sequencial/aleatório). \n\nDeslizar para a esquerda removerá o module selecionado da playlist (mas não da Coleção).";
+
+"AboutView_Radio" = "A Rádio champion-tracker traz aleatoriamente músicas de todo o banco de dados AMP para o seu dispositivo. \n\nSe você gostar de uma música que está tocando e desejar guardá-la para mais tarde, toque no ícone de favorito (estrela) na visualização da Rádio champion-tracker ou dê um toque longo no module para adicionar a uma playlist. \n\nVocê pode escolher de quatro canais: Todos (embaralhar todo o conteúdo), Novos (adicionados recentemente ao banco de dados da AMP), Coleção (mods da coleção local) e Personalizado (criado a partir de um resultado de pesquisa).";
+
+"AboutView_Social" ="Você pode encontrar o champion-tracker no Mastodon! Siga @champion-tracker@mastodon.social para obter as últimas notícias sobre o aplicativo, versões futuras, interrupções de serviço, etc. O feed do champion-tracker geralmente também traz músicas legais postadas para seu entretenimento. Toque aqui para seguir.";
+
+"SettingsView_Title" = "Configurações";
+
+"Settings_StereoSeparation" = "Separação Estéreo (%@%%)";
+"Settings_Effects" = "Efeitos";
+"Settings_PreviewMode" = "Modo Preview";
+"Settings_Interpolation" = "Interpolação de Samples";
+
+"Settings_Housekeeping" = "Exclusão Automática";
+"Settings_HousekeepingDescription" = "Selecione como você deseja que o champion-tracker trate os modules não fixados (não favoritos, nem em uma playlist) quando uma playlist for apagada";
+"Settings_AlwaysAsk" = "Perguntar antes de apagar";
+"Settings_Keep" = "Manter todos";
+"Settings_DeleteNonPinned" = "Apagar os não-fixados";
+"Settings_AnalyticsTitle" = "Coleta de dados anônimos";
+"Settings_AnalyticsOK" = "Estou bem com isso";
+"Settings_AnalyticsDetails" = "Detalhes da coleta de dados";
+"Settings_EffectsOnOff" = "Efeitos on/off";

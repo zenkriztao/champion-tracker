@@ -1,0 +1,102 @@
+@startuml Replayer
+allowmixing 
+
+title Replayer architecture
+
+legend 
+    |Color| Type |
+    |<#MOTIVATION>| champion-tracker |
+    |<#lightgreen>| iOS Core Audio |
+    |<#lightblue>| Third party |
+endlegend
+
+
+class Replay <<ReplayControl, ReplayInformation>> {
+    -audioUnit: AudioComponentInstance
+    -renderer<<ReplayControl, ReplayInformation, ReplayerStream>>
+    initAudio() 
+    play()
+    stop()
+    pause()
+    resume()
+    -playbackCallback()
+}
+
+interface ReplayInformation {
+    currentPosition()
+    moduleLength()
+    volumeOnChannel(int)
+    numberOfChannels()
+    samples()
+    instruments()
+}
+
+interface ReplayControl {
+    looping: Boolean
+    supportedFormats: NSArray<String>
+    loadModule(path)
+    setCurrentPosition(int)
+    setStereoSeparation(int)
+    setInterpolationFilterLength(int)
+}
+
+interface ReplayerStream {
+    readFrames(count, bufLeft, bufRight)
+}
+
+class MTPReplayer <<ReplayControl, ReplayInformation>> implements ReplayerStream {
+
+}
+
+class ModulePlayer {}
+
+class HVLReplayer <<ReplayControl, ReplayInformation>> implements ReplayerStream {
+}
+
+class UADEReplayer <<ReplayControl, ReplayInformation>> implements ReplayerStream {
+
+}
+
+interface ReplayStreamDelegate {
+    bufferUpdated(left, right, frameCount)
+    reachedEndOfStream(Replayer)
+}
+
+interface ReplayStatusDelegate {
+    playStatusChanged(Replayer)
+}
+interface AURenderCallback #lightgreen {
+    callbackFunction    
+}
+
+Replay o-- HVLReplayer
+Replay o-- MTPReplayer
+Replay --> ReplayerStream
+
+ModulePlayer -> Replay
+ModulePlayer .-|> ReplayStreamDelegate
+ModulePlayer .-|> ReplayStatusDelegate
+Replay -up-> ReplayStreamDelegate
+Replay -up-> ReplayStatusDelegate
+
+Replay .up-|> ReplayInformation
+Replay .up-|> ReplayControl
+Replay -.right-|> AURenderCallback
+AudioComponentInstance --> AURenderCallback
+
+package libopenmpt #lightblue {
+    
+}
+package hvl_replay #lightblue {
+}
+
+package UADE #lightblue {
+}
+
+class AudioComponentInstance #lightgreen
+
+Replay *-right-> AudioComponentInstance
+MTPReplayer --> libopenmpt
+HVLReplayer --> hvl_replay
+UADEReplayer --> UADE
+@enduml
